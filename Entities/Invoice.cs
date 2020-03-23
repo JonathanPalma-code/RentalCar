@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace RentalCar.Entities
+﻿namespace RentalCar.Entities
 {
     class Invoice
     {
