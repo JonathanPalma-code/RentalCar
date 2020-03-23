@@ -1,0 +1,11 @@
+C:\Users\jonat\Documents\C#\Projects\RentalCar\bin\Debug\netcoreapp3.1\RentalCar.exe
+C:\Users\jonat\Documents\C#\Projects\RentalCar\bin\Debug\netcoreapp3.1\RentalCar.deps.json
+C:\Users\jonat\Documents\C#\Projects\RentalCar\bin\Debug\netcoreapp3.1\RentalCar.runtimeconfig.json
+C:\Users\jonat\Documents\C#\Projects\RentalCar\bin\Debug\netcoreapp3.1\RentalCar.runtimeconfig.dev.json
+C:\Users\jonat\Documents\C#\Projects\RentalCar\bin\Debug\netcoreapp3.1\RentalCar.dll
+C:\Users\jonat\Documents\C#\Projects\RentalCar\bin\Debug\netcoreapp3.1\RentalCar.pdb
+C:\Users\jonat\Documents\C#\Projects\RentalCar\obj\Debug\netcoreapp3.1\RentalCar.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\C#\Projects\RentalCar\obj\Debug\netcoreapp3.1\RentalCar.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\C#\Projects\RentalCar\obj\Debug\netcoreapp3.1\RentalCar.AssemblyInfo.cs
+C:\Users\jonat\Documents\C#\Projects\RentalCar\obj\Debug\netcoreapp3.1\RentalCar.dll
+C:\Users\jonat\Documents\C#\Projects\RentalCar\obj\Debug\netcoreapp3.1\RentalCar.pdb

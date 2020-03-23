@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using RentalCar.Entities;
+using RentalCar.Services;
 
 namespace RentalCar
 {
@@ -12,13 +13,23 @@ namespace RentalCar
             Console.Write("Car Model: ");
             string carModel = Console.ReadLine();
             Console.Write("Pickup (dd/MM/yyyy hh:mm): ");
-            DateTime starDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
+            DateTime starDate = DateTime.Parse(Console.ReadLine());
             Console.Write("Return (dd/MM/yyyy hh:mm): ");
-            DateTime endDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
+            DateTime endDate = DateTime.Parse(Console.ReadLine());
+
+            Console.Write("Price p/Hour: ");
+            double hour = double.Parse(Console.ReadLine());
+            Console.Write("Price p/Day: ");
+            double day = double.Parse(Console.ReadLine());
 
             CarRental carRental = new CarRental(starDate, endDate, new Vehicle(carModel));
 
+            RentalService rentalService = new RentalService(hour, day);
 
+            rentalService.ProcessInvoice(carRental);
+
+            Console.WriteLine("Invoice: ");
+            Console.WriteLine(carRental.Invoice);
         }
     }
 }
