@@ -2,7 +2,7 @@
 
 namespace RentalCar.Services
 {
-    class TaxService
+    class PortugalTaxService : ITaxService
     {
         public double Tax(double amount)
         {

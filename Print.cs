@@ -24,7 +24,7 @@ namespace RentalCar
 
             CarRental carRental = new CarRental(starDate, endDate, new Vehicle(carModel));
 
-            RentalService rentalService = new RentalService(hour, day);
+            RentalService rentalService = new RentalService(hour, day, new PortugalTaxService());
 
             rentalService.ProcessInvoice(carRental);
 
